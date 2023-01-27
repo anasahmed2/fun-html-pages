@@ -1,0 +1,50 @@
+body {
+background-color: #000;
+}
+
+h1 {
+    color:rgb(182, 182, 182);;
+    text-align: center;
+    font-size: 32px;
+    font-family: Candara, Oswald;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+}
+
+#botao1 {
+    color:rgb(182, 182, 182);;
+    border: none;
+    border: 2px solid #6d1515;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #301e1e;
+    background: linear-gradient(56deg, rgba(0,0,0,1) 19%, rgba(111,31,31,1) 51%, rgba(0,0,0,1) 82%);
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#botao2 {
+    color: rgb(182, 182, 182);
+    border: none;
+    border: 2px solid #6d1515;
+    border-radius: 4px;
+    background: linear-gradient(56deg, rgba(0,0,0,1) 19%, rgba(111,31,31,1) 51%, rgba(0,0,0,1) 82%);
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+}
